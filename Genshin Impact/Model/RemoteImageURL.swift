@@ -8,6 +8,8 @@
 import Foundation
 import Combine
 
+// MARK: Remote Image component
+
 class ImageLoader: ObservableObject {
     @Published var dataIsValid = false
     var data:Data?
